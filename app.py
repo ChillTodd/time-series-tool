@@ -29,7 +29,7 @@ if data_choice == "Use Sample Dataset":
    
     st.write("Using sample dataset.")
     file_path = os.path.join(
-    os.getcwd(), "Documents", "Blog", "application", "time-series-env", "data", "better_sample_data.csv")
+    os.getcwd(), "better_sample_data.csv")
     data = pd.read_csv(file_path, parse_dates=['Date'], index_col='Date')
     inuse = 1
 else:
