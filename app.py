@@ -113,3 +113,5 @@ if "data" not in locals() or data.empty:
 
 
 
+# Print the current working directory
+print("Current working directory:", os.getcwd())
