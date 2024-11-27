@@ -112,6 +112,3 @@ if "data" not in locals() or data.empty:
     st.error("No data available. Please upload a dataset or select the sample.")
 
 
-
-# Print the current working directory
-st.write("Current working directory:", os.getcwd())
